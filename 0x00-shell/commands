@@ -1,0 +1,28 @@
+pwd = print current working directory
+ls = list files & directories in the working directory
+ls -l = list in long format
+cd = change the working directory
+cd .. = change the working directory to the parent
+less = view test files
+file = classify a file's contents
+cp = copy files & directories
+mv = move or rename files & directories
+rm = remove files
+rm -r = remove directories
+rm -fr = force remove directories
+mkdir = creat directories
+> = redirect standard output to a file /overwrite from the begining/
+>> = redirect standard output to a file /add new results to the end of the file/
+< = redirect standard input from a file instead of the keyboard
+Pipelines = the standard output of one command is fed into the standard input
+            of another
+* = matches any characters
+e.g. 1
+cp -u *.html destination
+copy all HTML files from working directory to another
+but only copy files that did not exist in the destination
+or were newer than the versions in the destination directory
+e.g. 2
+rm *~
+Delete all files in the current working directory that end with
+the character "~"
